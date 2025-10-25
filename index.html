@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математичний портал - Тригонометрія</title>
+</head>
+<body>
+    <table width="100%" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+            <td colspan="2" bgcolor="#FFE4B5">
+                <h1 align="center">Математичний освітній портал</h1>
+                <p align="center"><i>Вивчаємо математику разом</i></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%" bgcolor="#FFF8DC" valign="top">
+                <h3>Навігація</h3>
+                <p><a href="#formula">Тригонометрія</a></p>
+                <p><a href="#test">Тестування</a></p>
+                <p><a href="#table">Успішність</a></p>
+                <p><a href="#registration">Реєстрація</a></p>
+            </td>
+            <td width="80%" bgcolor="#FFFAF0" valign="top">
+                <!-- Посилання та зображення -->
+                <div align="center">
+                    <a href="https://nure.ua" target="_blank">
+                        <img src="https://nure.ua/wp-content/uploads/img_20231017_070803_531.jpg" 
+                             alt="Банер університету" width="800" height="150" border="0">
+                    </a>
+                </div>
+                
+                <br>
+                
+                <!-- Оформлений текст з формулами -->
+                <h2 id="formula">Основна тригонометрична тотожність</h2>
+                <p>
+                    <i>cos</i><sup>2</sup><i>α</i> + <i>sin</i><sup>2</sup><i>α</i> = 1
+                </p>
+                <p>
+                    <b>Приклад суворої нерівності:</b> α &lt; β.
+                </p>
+                <p>
+                    <b>Нестрога нерівність</b> α &le; β означає, що або α &lt; β, або α = β.
+                </p>
+                
+                <hr>
+                
+                <!-- Список -->
+                <h2 id="test">Дворівневий список з питаннями та варіантами відповідей</h2>
+                <ol>
+                    <li><b>Яке значення має cos(0)?</b>
+                        <ul>
+                            <li>0</li>
+                            <li>1</li>
+                            <li>-1</li>
+                            <li>∞</li>
+                        </ul>
+                    </li>
+                    <li><b>Чому дорівнює sin(90°)?</b>
+                        <ul>
+                            <li>0</li>
+                            <li>1</li>
+                            <li>0.5</li>
+                            <li>√2/2</li>
+                        </ul>
+                    </li>
+                    <li><b>Період функції sin(x) дорівнює:</b>
+                        <ul>
+                            <li>π</li>
+                            <li>2π</li>
+                            <li>π/2</li>
+                            <li>4π</li>
+                        </ul>
+                    </li>
+                    <li><b>Яка формула визначає tg(x)?</b>
+                        <ul>
+                            <li>sin(x)/cos(x)</li>
+                            <li>cos(x)/sin(x)</li>
+                            <li>sin(x) · cos(x)</li>
+                            <li>sin(x) + cos(x)</li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <hr>
+                
+                <!-- Таблиця -->
+                <h2 id="table">Таблиця з даними про успішність 3-х студентів з деяких дисциплін 3-го курсу</h2>
+                <table border="1" cellpadding="8" cellspacing="0" width="100%">
+                    <tr bgcolor="#ADD8E6">
+                        <th>Прізвище студента</th>
+                        <th>Вища математика</th>
+                        <th>Програмування</th>
+                        <th>Фізика</th>
+                        <th>Англійська мова</th>
+                        <th>Середній бал</th>
+                    </tr>
+                    <tr>
+                        <td><b>Іваненко Петро</b></td>
+                        <td align="center">85</td>
+                        <td align="center">90</td>
+                        <td align="center">78</td>
+                        <td align="center">82</td>
+                        <td align="center"><b>83.75</b></td>
+                    </tr>
+                    <tr bgcolor="#F0F8FF">
+                        <td><b>Коваленко Марія</b></td>
+                        <td align="center">92</td>
+                        <td align="center">88</td>
+                        <td align="center">95</td>
+                        <td align="center">90</td>
+                        <td align="center"><b>91.25</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Шевченко Олександр</b></td>
+                        <td align="center">76</td>
+                        <td align="center">82</td>
+                        <td align="center">80</td>
+                        <td align="center">75</td>
+                        <td align="center"><b>78.25</b></td>
+                    </tr>
+                </table>
+                
+                <hr>
+                
+                <!-- Форма реєстрації -->
+                <h2 id="registration">Форма реєстрації відвідувача сайту</h2>
+                <form action="#" method="post">
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td><label for="lastname">Прізвище:</label></td>
+                            <td><input type="text" id="lastname" name="lastname" size="30" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="firstname">Ім'я:</label></td>
+                            <td><input type="text" id="firstname" name="firstname" size="30" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" size="30" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Пароль:</label></td>
+                            <td><input type="password" id="password" name="password" size="30" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Стать:</label></td>
+                            <td>
+                                <input type="radio" id="male" name="gender" value="male" checked>
+                                <label for="male">Чоловіча</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Жіноча</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="course">Курс:</label></td>
+                            <td>
+                                <select id="course" name="course">
+                                    <option value="1">1 курс</option>
+                                    <option value="2">2 курс</option>
+                                    <option value="3" selected>3 курс</option>
+                                    <option value="4">4 курс</option>
+                                    <option value="5">5 курс</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Цікаві предмети:</label></td>
+                            <td>
+                                <input type="checkbox" id="math" name="subjects" value="math">
+                                <label for="math">Математика</label><br>
+                                <input type="checkbox" id="prog" name="subjects" value="programming">
+                                <label for="prog">Програмування</label><br>
+                                <input type="checkbox" id="physics" name="subjects" value="physics">
+                                <label for="physics">Фізика</label><br>
+                                <input type="checkbox" id="english" name="subjects" value="english">
+                                <label for="english">Англійська мова</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="comment">Коментар:</label></td>
+                            <td><textarea id="comment" name="comment" rows="4" cols="30"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Зареєструватися">
+                                <input type="reset" value="Очистити">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="#FFE4B5" align="center">
+                <p>&copy; 2025 Математичний портал. Всі права захищені;.</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
